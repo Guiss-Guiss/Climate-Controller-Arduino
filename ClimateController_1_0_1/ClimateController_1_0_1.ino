@@ -415,12 +415,11 @@ void Relays()
         digitalWrite(humHigh, HIGH);
       }
     } 
-    if ((now.hour() > startHour || (now.hour() == startHour && now.minute() >= startMinute))
-    && (now.hour() < stopHour || (now.hour() == stopHour && now.minute() <= stopMinute)))
+    if (now.hour() >= startHour && now.minute() >= startMinute)
     {
       digitalWrite(lights, LOW);
     }
-    else
+    if (now.hour() >= stopHour && now.minute() >= stopMinute)
     {
       digitalWrite(lights, HIGH);
     }
