@@ -1,5 +1,5 @@
 This sketch allows to control the climate in a room, a greenhouse, a grow tent,
-an aquariun, a vivarium, or any other enclosure. It can also be used to control
+an aquarium, a vivarium, or any other enclosure. It can also be used to control
 the fermentation temperature of beer or wine. It can be used to control your world.
 
 It is using a variety of sensing and controlling devices.
