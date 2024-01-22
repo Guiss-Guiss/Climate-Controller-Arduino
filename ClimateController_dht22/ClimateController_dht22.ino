@@ -1786,4 +1786,4 @@ void loop()
     SetStopMinute();      // Run the stop time function
     break;
   }
-}
+}                      // Vive la révolution!
