@@ -1,18 +1,71 @@
+# Climate Controller | Contrôleur de Climat | Controlador de Clima
 
-Written by Guillaume Ste-Marie
-GNU GENERAL PUBLIC LICENSE, see the LICENSE file for details.
-This sketch allows to control the climate in a room, a greenhouse, a grow tent,
-an aquariun, a vivarium, or any other enclosure. It can also be used to control
-the fermentation temperature of beer or wine. It can be used to control your world.
-It is using a variety of sensing and controlling devices.
-It sets up the necessary pins, libraries, and variables to read the
-temperature, humidity, and control the relays to power the heater,
-exhaust fan or cooling, humidifier, dehumidifier, and lights.
-The user can access a menu to set the desired temperature, humidity,
-and lighting times. It uses the EEPROM memory of the DS3231 RTC to store the settings,
-a DS3231 RTC module to keep track of time, a dht22 temperature and humidity sensor
-to read temperature and relative humidity. It uses a 20x4 LCD screen to display the current time.
-It uses 5 momentary switches to navigate the menu and set the desired values.
-It uses 5 relays to control the heater, exhaust fan or cooling, humidifier, dehumidifier, and lights.
-Visit https://www.guillaumeguiss.com or email at controller@guillaumeguiss.com for more information.
-Tested on Arduino Uno, Arduino Mega, and Arduino Nano.
+[English](#english) | [Français](#français)
+
+---
+
+# English
+
+## Overview
+An Arduino-based climate control system for managing temperature, humidity, and lighting in enclosed environments.
+
+### Key Features
+- 🌡️ Temperature & humidity control
+- 💡 Programmable lighting
+- 🔄 Bilingual interface
+- ⚡ 5-relay control system
+- 💾 Persistent settings storage
+- 🖥️ LCD interface
+
+### Hardware Required
+- Arduino (Uno/Mega/Nano)
+- DHT22 sensor
+- DS3231 RTC module
+- 20x4 I2C LCD display
+- 5 momentary switches
+- 5 control relays
+
+### Quick Start
+1. Connect components
+2. Upload code
+3. Configure settings via LCD
+4. Monitor & enjoy automated control
+
+---
+
+# Français
+
+## Aperçu
+Système de contrôle climatique basé sur Arduino pour gérer la température, l'humidité et l'éclairage dans des environnements fermés.
+
+### Caractéristiques Principales
+- 🌡️ Contrôle température & humidité
+- 💡 Éclairage programmable
+- 🔄 Interface bilingue
+- ⚡ Système à 5 relais
+- 💾 Sauvegarde des paramètres
+- 🖥️ Interface LCD
+
+### Matériel Requis
+- Arduino (Uno/Mega/Nano)
+- Capteur DHT22
+- Module RTC DS3231
+- Écran LCD 20x4 I2C
+- 5 interrupteurs momentanés
+- 5 relais de contrôle
+
+### Démarrage Rapide
+1. Connecter les composants
+2. Téléverser le code
+3. Configurer via LCD
+4. Surveiller & profiter du contrôle automatisé
+
+---
+
+
+## Support | Soutien | 
+- 🌐 www.guillaumeguiss.com
+- 📧 controller@guillaumeguiss.com
+
+## License | Licence 
+GNU General Public License
