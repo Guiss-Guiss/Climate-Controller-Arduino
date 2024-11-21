@@ -1,6 +1,6 @@
 # Climate Controller | Contrôleur de Climat
 
-![Climate Controller Interface](.CC.jpg)
+![Climate Controller Interface](CC.jpg)
 
 [English](#english) | [Français](#français)
 
