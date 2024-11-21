@@ -1,5 +1,4 @@
-# Climate Controller | Contrôleur de Climat | Controlador de Clima
-
+# Climate Controller | Contrôleur de Climat
 [English](#english) | [Français](#français)
 
 ---
